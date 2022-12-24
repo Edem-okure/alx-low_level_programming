@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
- *  * *cap_string - capitalize words
- *   * @str: pointer
- *    * Return: capitalized string
- *     */
+ * cap_string - capitalize words
+ * @str: pointer
+ * Return: capitalized string
+ */
 char *cap_string(char *str)
 {
 	char sep[] = ",\t;\n; .!?\"(){}";
